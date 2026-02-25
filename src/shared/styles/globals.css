@@ -1,0 +1,21 @@
+@import "./variables.css";
+@import "./reset.css";
+
+body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+main {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
