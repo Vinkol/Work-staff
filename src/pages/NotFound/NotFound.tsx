@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './NotFound.module.sass'
-import bgImage from '@/shared/assets/images/Буклетный фон.png'
+import bgImage from '@/shared/assets/images/Main.png'
 import manImage from '@/shared/assets/images/Пётр 1.png'
 
 export const NotFoundPage = () => {

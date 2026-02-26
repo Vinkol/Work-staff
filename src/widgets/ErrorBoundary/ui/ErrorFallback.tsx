@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import styles from "./ErrorFallback.module.sass";
-import bgImage from "@/shared/assets/images/Буклетный фон.png";
+import bgImage from "@/shared/assets/images/Main.png";
 
 export const ErrorFallback = () => {
   const navigate = useNavigate();
