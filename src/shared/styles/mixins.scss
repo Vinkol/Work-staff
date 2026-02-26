@@ -1,0 +1,7 @@
+@use "./breakpoints" as *;
+
+@mixin up($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
