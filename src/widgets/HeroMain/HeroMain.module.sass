@@ -1,0 +1,77 @@
+.hero
+  position: relative
+  overflow: hidden
+
+.topSection
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  position: relative
+  z-index: 2 
+
+.left
+  max-width: 570px
+
+  h1
+    font-family: "Roboto", sans-serif
+    font-size: 64px
+    font-weight: 800
+    line-height: 1.2
+    margin-bottom: 30px
+
+.list
+  list-style: none
+  margin-bottom: 30px
+
+  li
+    position: relative
+    margin-bottom: 12px
+    margin-left: 35px
+    font-size: 22px
+
+    &::before
+      content: ''
+      position: absolute
+      top: 8px
+      left: -30px
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      background: #c43742
+
+.cta
+  background: #c43742
+  color: #fff
+  border: none
+  padding: 14px 28px
+  font-size: 24px
+  font-weight: 600
+  border-radius: 2px
+  cursor: pointer
+  transition: 0.2s
+
+  &:hover
+    background: #a92f38
+
+.bottom
+  position: relative
+  z-index: 3
+  margin-top: 40px
+  display: flex
+  justify-content: space-between
+
+.listcta
+  font-weight: 400
+  font-size: 20px
+  list-style: none
+  
+.imageBlock
+  position: absolute
+  right: 0
+  bottom: 0
+  z-index: 1
+
+  img
+    max-width: 500px
+    height: auto
+    display: block
